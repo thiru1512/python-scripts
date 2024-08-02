@@ -1,3 +1,7 @@
+#name = "thiru"
+#uppercase = name.upper()
+#print(uppercase)
+
+
 name = "thiru"
-uppercase = name.upper()
-print(uppercase)
+print(name.upper())
