@@ -5,3 +5,21 @@
 
 name = "thiru"
 print(name.upper())
+print(name.lower())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
