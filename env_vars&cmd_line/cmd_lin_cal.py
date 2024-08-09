@@ -21,14 +21,14 @@ print(sys.argv[0])
 
 if operation == "addition":
     output = add(num1,num2)
-    print(output)
+    print("The sum of two numbers are :",output)
 elif operation == "subtract":
     output = sub(num1,num2)
     print(output)
 
 elif operation == "multiplication":
     #output = mul(num1,num2)
-    print(mul(num1,num2))
+    print(f"The product of two numbers are :{mul(num1,num2)}")
 else:
     print("enter correct values")
 
