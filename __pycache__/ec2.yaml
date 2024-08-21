@@ -1,0 +1,22 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: check packages in latest state
+    yum:
+      name : "{{item}}"
+      state: latest
+    with_items:
+      - openssl
+      - openssh
+    ignore_errors: yes
+    
+    - name: To check docker is installed
+      command: docker --version
+      register: out
+
+    - name: to debug
+      debug:
+        msg: out    
+
+
