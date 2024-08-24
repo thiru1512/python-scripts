@@ -1,7 +1,7 @@
 import sys
 
-def add(num1,num2):
-    sum = num1 + num2
+def add(value1,value2):
+    sum = value1 + value2
     return sum
 
 def sub(num1,num2):
