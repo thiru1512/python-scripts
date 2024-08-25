@@ -8,7 +8,7 @@ for i in range(9):
         else:
             print("0",end="")
     else:
-        print("")
+        print()
 
 
     

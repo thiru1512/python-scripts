@@ -1,5 +1,5 @@
 data_lis = ["mani","thiru",25,6.7,"george","peter","sam"]
-
+data_lis[1]="mani1"
 num = [100,50,25]
 
 data_tup = ( "mani", "tjiru",100,200,50,"kumar")
