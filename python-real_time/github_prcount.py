@@ -18,6 +18,7 @@ if response.status_code == 200:
             pr_creators[username] = 1
     
     print("PR Creators and Counts:")
+    
 
     for username,count in pr_creators.items():
         print(f"{username}: {count}PR(s)")
