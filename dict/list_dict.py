@@ -16,5 +16,6 @@ instance_info = [
 ]
 instance_info[2]["instance_id"] = "22"
 
-
+for name in instance_info:
+    print(name["type"])
 print(instance_info[2]["instance_id"])

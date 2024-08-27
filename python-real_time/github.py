@@ -3,12 +3,12 @@ import requests
 output =   requests.get("https://api.github.com/repos/thiru1512/python-scripts/branches")
 
 
-details = output.json()
 
-print(details)
+response = output.json()
+print(response)
 
-details[0]["name"]="new"
+response[0]["name"]="new"
 
-for info in details:
+for info in response:
     print(info["commit"]["url"])
     print(info["name"])
