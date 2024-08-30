@@ -4,6 +4,7 @@ import requests
 from requests.auth import HTTPBasicAuth
 import json
 import os
+
 baseurl = "thiru1512.atlassian.net"
 url = f"http://{baseurl}/rest/api/2/project"
 
@@ -27,5 +28,4 @@ for name in output:
 
 
 
-#print(os.getenv("api_token"))
-#print(os.getenv("email_id"))
+
